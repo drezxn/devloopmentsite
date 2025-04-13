@@ -1,0 +1,20 @@
+{
+  "en-us": {
+    "title": "Privacy Policy",
+    "privacy": [
+      "We collect the following data: contact email, first name, and age.",
+      "Your data is used only to provide our services: Design, Hosting, and Pre-made Discord Bots sales with optional hosting.",
+      "We do not share your data with third parties."
+    ],
+    "contact": "You can request data removal by contacting us."
+  },
+  "pt-br": {
+    "title": "Política de Privacidade",
+    "privacy": [
+      "Coletamos os seguintes dados: e-mail de contato, primeiro nome e idade.",
+      "Seus dados são usados apenas para fornecer nossos serviços: Design, Hospedagem e Venda de Bots prontos para Discord com hospedagem opcional.",
+      "Não compartilhamos seus dados com terceiros."
+    ],
+    "contact": "Você pode solicitar a remoção dos dados entrando em contato conosco."
+  }
+}

@@ -1,0 +1,16 @@
+.priv {
+  font-family: "Fira Coda", monospace;
+  font-size: 10px;
+}
+.priv ul {
+  list-style-type: upper-greek;
+  text-align: left;
+  margin: 0 30px;
+}
+.priv h2 {
+  text-align: center;
+  margin: 10px;
+}
+.priv p {
+  margin: 10px;
+}

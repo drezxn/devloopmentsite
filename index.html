@@ -1,37 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Devloopment - Home</title>
-  <link rel="stylesheet" href="src/styles/legacy.css">
+  <title>Devloopment</title>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/legacy.css">
 </head>
 
-<body>
-  <div class="topo">
-    <div class="marca">
-      <img src="src/dv_icon.png" alt="Devloopment-Icon">
-      <p>Devloopment</p>
+<body class="gradient-bg grid place-items-center min-h-screen text-white/80">
+  <div class="content mx-auto">
+    
+    <div class="container flex items-center">
+      <img src="src/dv_icon.png" class="w-15">
+      <div class="px-4">
+        <h2 class="font-semibold">Devloopment</h2>
+        <a href="https://discord.gg/u4zmEJ5P3Y" target="_blank">
+          <i class="fa-brands fa-discord text-white/30 text-sm"></i>
+        </a>
+        <i class="fa-solid fa-scroll text-white/30 text-sm"></i>
+      </div>
     </div>
     
-    <div class="btns">
-      <button id="lang-btn">
-        <img id="lang-img">
-      </button>
+    <div class="container">
+      <div class="text-white/40 flex items-center pb-1">
+        <i class="fa-solid fa-comment text-sm"></i>
+        <h2 class="font-bold px-1">O que somos?</h2>
+      </div>
+      <p class="text-sm border-l-2 border-gray-400 pl-2">Somos um grupo de projetos dos mais diversos tipos e com diferentes formas de atender suas necessidades e ajudar você.</p>
     </div>
+    
+    <div class="container">
+      
+      <div>
+        <h1 class="font-bold text-start border-b-1 border-gray-600">Projetos</h1>
+        
+        <div class="flex flex-col items-center">
+          <img class="w-30 p-1" src="src/amethyst-project.gif">
+          <h1 class="font-semibold text-md">Amethyst</h1>
+          
+          <div>
+            <a href="https://discord.com/oauth2/authorize?client_id=1206191775828545546" target="_blank">
+              <i class="fa-brands fa-discord text-white/40"></i>
+            </a>
+            <a href="https://amethyst.devloopment.site/" target="_blank">
+              <i class="fa-solid fa-street-view text-white/40"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="flex text-center">
+    
+      <div class="v-container">
+        <h1 class="font-bold">CEO</h1>
+        <div class="border-t-1 border-gray-600 text-center">
+          <img class="w-35 p-1" src="src/drezxn.png">
+          <h1 class="font-semibold text-md">André Correa</h1>
+          
+          <div>
+            <a href="https://github.com/drezxn" target="_blank"><i class="fa-brands fa-github text-white/40"></i></a>
+            <i class="fa-solid fa-paste text-white/40"></i>
+          </div>
+        </div>
+      </div>
+      
+      <div class="v-container">
+        <h1 class="font-bold">COO</h1>
+        <div class="border-t-1 border-gray-600 text-center">
+          <img class="w-35 p-1" src="src/itslfrh.png">
+          <h1 class="font-semibold text-md">Luiz Costa</h1>
+          
+          <div>
+            <a href="https://github.com/lfrhh" target="_blank"><i class="fa-brands fa-github text-white/40"></i></a>
+            <a href="https://instagram.com/itslfrh" target="_blank"><i class="fa-brands fa-instagram text-white/40"></i></a>
+            <i class="fa-solid fa-paste text-white/40"></i>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
   </div>
-  <iframe src="https://discord.com/widget?id=1265778903465721928&theme=dark" width="300" height="350" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-
-  <script src="src/script/set-lang.js"></script>
-  <script src="src/script/home-load.js"></script>
   
-  <footer>
-    <p id="f1"></p>
-    <p id="f2"></p>
-    
-    <a href="/privacy.html"><p id="f3"></p></a>
+  <footer class="text-center text-xs font-thin">
+    Taking it to the next level.
+    <br>© 2025 Devloopment - All rights reserved.
   </footer>
 </body>
 </html>
